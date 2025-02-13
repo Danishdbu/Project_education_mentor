@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.body{
+    background-color: #ffffff;
+}
+.navbar-brand{
+    color: #5fd07f;
+}
+.bg_img{
+    background: url('hero-bg.png');
+    background-size: cover;
+    padding: 100px 0px;
+}
+.container{
+    padding: 10px;
+    margin: 20px;
+}
+.col1 , .col2{
+    margin: 20px;
+    padding: 10px 20px;
+    
+}
+.row{
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+.img-fluid ,.text_des{
+    padding: 20px;
+}
+.btn{
+    border-radius: 1rem;
+    
+}
+.stats-item{
+    font-weight: bold;
+    color: #5fd080; 
+}
+.bg_card{
+    background-color: #5fd080;
+
+}
+
+.btn_card {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.btn_card:hover,
+.btn_card:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.btn_card:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.btn_card:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.p{
+    padding: 0px 120px;
+}
+
+.clipboard-container {
+    color: #5fd07f;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Space between the icon and the content */
+  }
+
+.content2 {
+    text-align: center;
+    border: rgba(128, 128, 128, 0.767) solid 1px ;
+    height: 380px;
+  }
+.contioner_card{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+  }
+.bottum{
+    display: flex;
+    justify-content: center;
+}
+.left_Container{
+    height: 1px;
+    width: 1px;
+    display: flex;
+}
+.icon_img{
+    border-radius: 50%;
+}
+.rigt_Container{
+    display: flex;
+}
+.man_content{
+    display: flex;
+}
+.hart_content{
+    display: flex;
+}
